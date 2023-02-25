@@ -98,7 +98,7 @@ A [demo](https://github.com/pyrustic/exn-demo) is available that you can play wi
 ```bash
 # 1- clone the repository
 $ git clone https://github.com/pyrustic/exn-demo
-$ cd project
+$ cd exn-demo
 
 # 2- install exn
 $ pip install exn
