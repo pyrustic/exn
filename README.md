@@ -2,7 +2,7 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/exn/cover.png" alt="Demo" width="683">
     <p align="center">
-    Exn <a href="https://github.com/pyrustic/exn-demo">demo</a>
+    <a href="https://github.com/pyrustic/exn-demo/blob/master/home.exn">Home.exn</a> from the <a href="https://github.com/pyrustic/exn-demo">demo</a> dossier
     </p>
 </div>
 
@@ -40,7 +40,7 @@ Exn is a lightweight Python application for browsing a dossier of exonotes. An e
 This application is built with the Gaspium framework and uses [Shared](https://github.com/pyrustic/shared) and [Jesth](https://github.com/pyrustic/jesth) extensively to manipulate data.
 
 ## Dossier of exonotes
-A dossier is a directory containing exonotes and resources such as attachments and Python source code. At the root of a dossier should be an index file containing an ordered list of exonotes filenames, titles, and their associated tags. The index file is generated automatically by the `--build` command in the command line (the order is based on the creation timestamp of the exonotes).
+A **dossier** is a directory containing exonotes and resources such as attachments and Python source code. At the root of a dossier should be an index file containing an ordered list of exonotes filenames, titles, and their associated tags. The index file is generated automatically by the `--build` command in the command line (the order is based on the creation timestamp of the exonotes).
 
 Exn treats each exonote with the `.exn` extension as the page of a virtual book, so the graphical user interface of Exn is a metaphor for a book with controls to move from one page to the next or to the previous one.
 
@@ -76,7 +76,7 @@ These are few concrete examples of what can be done with Exonote and Exn:
 - build programming puzzles with levels and backstory;
 - make a [proof of concept](https://www.malwarebytes.com/glossary/proof-of-concept);
 - use the `exonote.Viewer` class to make rich and/or interactive documentation inside another application. Exn itself uses the default viewer in the Exonote library.
-- Whistleblowing and and censorship bypass: Due to its nature, a dossier of exonotes is very convenient for disclosing information that can be easily replicated and consumed by people.
+- Whistleblowing and censorship bypass: Due to its nature, a dossier of exonotes is very convenient for disclosing information that can be easily replicated and consumed by people.
 - Decent alternative to a personal website: it is as simple as creating a GitHub repository, upload a dossier of exonote, share the link with readers, then regularly update the contents with `git commit`.
 
 > **Note**: you can define a `blocklist` file in `$dossier/.exn` to block access to a list of exonotes (filenames). This mechanism with the help of custom scripts, allows the implementation of a system of levels where certain conditions must be met before opening specific exonotes.
