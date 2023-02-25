@@ -26,7 +26,7 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 - [Command line interface](#command-line-interface)
 - [Scripting with Python](#scripting-with-Python)
 - [Viewer API](#viewer-api)
-- [Embedding GUI programs](#embedding-gui-programs)- 
+- [Embedding GUI programs](#embedding-gui-programs)
 - [Key bindings](#key-bindings)
 - [Miscellaneous](#miscellaneous)
 - [Installation](#installation)
