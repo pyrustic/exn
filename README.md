@@ -19,28 +19,17 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 
 ## Table of contents
 
-
-[Overview](#overview)
-    
-[Why use this project ?](#why-use-this-project-)
-
-[Demo](#demo)
-
-[Markup language](#markup-language)
-
-[Command line interface](#command-line-interface)
-
-[Scripting with Python](#scripting-with-Python)
-
-[Viewer API](#viewer-api)
-
-[Embedding GUI programs](#embedding-gui-programs)
-
-[Key bindings](#key-bindings)
-
-[Miscellaneous](#miscellaneous)
-
-[Installation](#installation)
+- [Overview](#overview)
+- [Why use this project ?](#why-use-this-project-)
+- [Demo](#demo)
+- [Markup language](#markup-language)
+- [Command line interface](#command-line-interface)
+- [Scripting with Python](#scripting-with-Python)
+- [Viewer API](#viewer-api)
+- [Embedding GUI programs](#embedding-gui-programs)- 
+- [Key bindings](#key-bindings)
+- [Miscellaneous](#miscellaneous)
+- [Installation](#installation)
 
 
 # Overview
