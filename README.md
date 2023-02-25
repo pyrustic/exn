@@ -22,7 +22,7 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 
 [Overview](#overview)
     
-[Why use this project ?](#why-use-this-project-?)
+[Why use this project ?](#why-use-this-project-)
 
 [Demo](#demo)
 
