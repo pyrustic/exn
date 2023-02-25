@@ -1,4 +1,4 @@
-Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/README.md#readme)
+Back to [All Modules](https://github.com/pyrustic/exn/blob/master/docs/modules/README.md#readme)
 
 # Module Overview
 
@@ -6,7 +6,7 @@ Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/READM
  
 No description
 
-> **Classes:** &nbsp; [Past](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.past/content/classes/Past.md#class-past)
+> **Classes:** &nbsp; [Past](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.past/content/classes/Past.md#class-past)
 >
 > **Functions:** &nbsp; None
 >

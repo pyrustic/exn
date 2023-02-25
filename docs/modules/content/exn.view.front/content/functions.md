@@ -1,4 +1,4 @@
-Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/README.md#readme)
+Back to [All Modules](https://github.com/pyrustic/exn/blob/master/docs/modules/README.md#readme)
 
 # Module Overview
 
@@ -6,7 +6,7 @@ Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/READM
  
 No description
 
-> **Classes:** &nbsp; [Front](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.front/content/classes/Front.md#class-front)
+> **Classes:** &nbsp; [Front](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.front/content/classes/Front.md#class-front)
 >
 > **Functions:** &nbsp; None
 >

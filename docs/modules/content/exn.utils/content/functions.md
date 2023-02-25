@@ -1,4 +1,4 @@
-Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/README.md#readme)
+Back to [All Modules](https://github.com/pyrustic/exn/blob/master/docs/modules/README.md#readme)
 
 # Module Overview
 
@@ -6,7 +6,7 @@ Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/READM
  
 No description
 
-> **Classes:** &nbsp; [IndexBuilder](https://pyrustic.github.com/blob/master/docs/modules/content/exn.utils/content/classes/IndexBuilder.md#class-indexbuilder)
+> **Classes:** &nbsp; [IndexBuilder](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.utils/content/classes/IndexBuilder.md#class-indexbuilder)
 >
 > **Functions:** &nbsp; [get\_callable](#get_callable) &nbsp;&nbsp; [load\_extensions](#load_extensions) &nbsp;&nbsp; [read\_style\_file](#read_style_file)
 >

@@ -1,4 +1,4 @@
-Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/README.md#readme)
+Back to [All Modules](https://github.com/pyrustic/exn/blob/master/docs/modules/README.md#readme)
 
 # Module Overview
 
@@ -6,7 +6,7 @@ Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/READM
  
 No description
 
-> **Classes:** &nbsp; [EntriesList](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.roll/content/classes/EntriesList.md#class-entrieslist) &nbsp;&nbsp; [Roll](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.roll/content/classes/Roll.md#class-roll)
+> **Classes:** &nbsp; [EntriesList](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.roll/content/classes/EntriesList.md#class-entrieslist) &nbsp;&nbsp; [Roll](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.roll/content/classes/Roll.md#class-roll)
 >
 > **Functions:** &nbsp; None
 >

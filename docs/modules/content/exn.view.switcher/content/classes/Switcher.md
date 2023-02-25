@@ -1,4 +1,4 @@
-Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/README.md#readme)
+Back to [All Modules](https://github.com/pyrustic/exn/blob/master/docs/modules/README.md#readme)
 
 # Module Overview
 
@@ -6,7 +6,7 @@ Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/READM
  
 No description
 
-> **Classes:** &nbsp; [Switcher](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.switcher/content/classes/Switcher.md#class-switcher)
+> **Classes:** &nbsp; [Switcher](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.switcher/content/classes/Switcher.md#class-switcher)
 >
 > **Functions:** &nbsp; None
 >

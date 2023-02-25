@@ -1,4 +1,4 @@
-Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/README.md#readme)
+Back to [All Modules](https://github.com/pyrustic/exn/blob/master/docs/modules/README.md#readme)
 
 # Module Overview
 
@@ -6,7 +6,7 @@ Back to [All Modules](https://pyrustic.github.com/blob/master/docs/modules/READM
  
 No description
 
-> **Classes:** &nbsp; [Finder](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.footer/content/classes/Finder.md#class-finder) &nbsp;&nbsp; [Footer](https://pyrustic.github.com/blob/master/docs/modules/content/exn.view.footer/content/classes/Footer.md#class-footer)
+> **Classes:** &nbsp; [Finder](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.footer/content/classes/Finder.md#class-finder) &nbsp;&nbsp; [Footer](https://github.com/pyrustic/exn/blob/master/docs/modules/content/exn.view.footer/content/classes/Footer.md#class-footer)
 >
 > **Functions:** &nbsp; None
 >
