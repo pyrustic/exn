@@ -37,6 +37,8 @@ Exn is a lightweight Python application for browsing a dossier of exonotes. An e
 
 This application is built with the [Gaspium](https://github.com/pyrustic/gaspium) framework and uses [Shared](https://github.com/pyrustic/shared) and [Jesth](https://github.com/pyrustic/jesth) extensively to manipulate data.
 
+This project is built on top of [Exonote](https://github.com/pyrustic/exonote). Solving issues in **Exonote** means improving **Exn**. Check the [issues](https://github.com/pyrustic/exonote/issues) !
+
 ## Dossier of exonotes
 A **dossier** is a directory containing exonotes and resources such as attachments and Python source code. At the root of a dossier should be an index file containing an ordered list of exonotes filenames, titles, and their associated tags. The index file is generated automatically by the `--build` command in the command line (the order is based on the creation timestamp of the exonotes).
 
