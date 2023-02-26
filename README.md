@@ -6,8 +6,6 @@
     </p>
 </div>
 
-> **Note to HN user**: I plan to make a Show HN soon ! ;)
-
 
 <!-- Intro Text -->
 # Exonote / Exn
@@ -37,7 +35,7 @@ Exn is a lightweight Python application for browsing a dossier of exonotes. An e
 
 **Interactivity** can be added to an exonote by **embedding GUI programs** written in Python with Tkinter. Additionally, all or part of an exonote can be arbitrarily generated using **custom Python scripts**.
 
-This application is built with the Gaspium framework and uses [Shared](https://github.com/pyrustic/shared) and [Jesth](https://github.com/pyrustic/jesth) extensively to manipulate data.
+This application is built with the [Gaspium](https://github.com/pyrustic/gaspium) framework and uses [Shared](https://github.com/pyrustic/shared) and [Jesth](https://github.com/pyrustic/jesth) extensively to manipulate data.
 
 ## Dossier of exonotes
 A **dossier** is a directory containing exonotes and resources such as attachments and Python source code. At the root of a dossier should be an index file containing an ordered list of exonotes filenames, titles, and their associated tags. The index file is generated automatically by the `--build` command in the command line (the order is based on the creation timestamp of the exonotes).
@@ -224,6 +222,9 @@ class MyView(Viewable):
 For a smooth user experience, keyboard keys are mapped to certain functions in Exn. For example, pressing `F` would activate the `Find in Page` functionality. Pressing `H` would open the home page. Pressing `S` would open the search interface. Pressing `T` would open the table of contents. Pressing `F5` would refresh the page. Et cetera.
 
 > **Note:** `Ctrl+Tab` will open the **switcher** to allow you to go back to the previously opened exonote.
+
+## Quick-copy
+Quickly copy the contents of a codeblock or the address of a link with a right-click over it !
 
 ## Attachments
 For the moments only images are supported.
