@@ -48,7 +48,7 @@ Exn treats each exonote with the `.exn` extension as the page of a virtual book,
 Exn has a search interface that allows the user to search for exonotes in the dossier by specifying tags, words or a phrase. The search mechanism has an optional [regular expression](https://en.wikipedia.org/wiki/Regular_expression) mode.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/exn/search.png" alt="Search" width="320">
+    <img src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/exn/search.png" alt="Search" width="300">
     <p align="center">
     <b>Search</> interface
     </p>
