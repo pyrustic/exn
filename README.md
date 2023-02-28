@@ -18,6 +18,7 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 ## Table of contents
 
 - [Overview](#overview)
+- [Why not org-mode ?](#why-not-org-mode)
 - [Why use this project ?](#why-use-this-project-)
 - [Demo](#demo)
 - [Markup language](#markup-language)
@@ -25,13 +26,12 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 - [Scripting with Python](#scripting-with-Python)
 - [Viewer API](#viewer-api)
 - [Embedding GUI programs](#embedding-gui-programs)
-- [Key bindings](#key-bindings)
 - [Miscellaneous](#miscellaneous)
 - [Installation](#installation)
 
 
 # Overview
-Exn is a lightweight Python application for browsing a dossier of exonotes. An exonote is **plain text** written with an [eponymous](https://github.com/pyrustic/exonote) markup language inspired by [Markdown](https://en.wikipedia.org/wiki/Markdown) and rendered with [Tkinter](https://en.wikipedia.org/wiki/Tkinter) (the default GUI library for [Python](https://www.python.org/downloads/)).
+**Exn** is a lightweight Python application for browsing a dossier of exonotes. An **exonote** is **plain text** written with an [eponymous](https://github.com/pyrustic/exonote) markup language inspired by [Markdown](https://en.wikipedia.org/wiki/Markdown) and rendered with [Tkinter](https://en.wikipedia.org/wiki/Tkinter) (the default GUI library for [Python](https://www.python.org/downloads/)).
 
 **Interactivity** can be added to an exonote by **embedding GUI programs** written in Python with Tkinter. Additionally, all or part of an exonote can be arbitrarily generated using **custom Python scripts**.
 
@@ -55,6 +55,26 @@ The command line interface exposes two options for running exonotes:
 |`-r`, `--restrict [<filename>]`| Open a note with low restriction, i.e., block the execution of embedded programs|
 |`-R`, `--Restrict [<filename>]`| Open a note with high restriction, i.e., block executable links and also the execution of embedded programs|
 
+
+# Why not org-mode ?
+Exonote supports codeblocks like in Markdown. Instead of providing the ability to execute codeblocks, which would lead to [literate programming](https://en.wikipedia.org/wiki/Literate_programming) like in [Emacs](https://en.wikipedia.org/wiki/Emacs)' [org-mode](https://orgmode.org/), Exonote would execute a program whose source code is **properly written** elsewhere by calling a function with arguments.
+
+By **properly written** source code, I mean a regular Python [package](https://python-course.eu/python-tutorial/packages.php) with tree structure, modularity, Python `.py` file extension, et cetera. Thus, with a **minimalist** syntax, one can embed not only a program whose source code is written in a directory inside an exonotes dossier, but also a program whose distributable package is installed in the current Python [virtual environment](https://docs.python.org/3/library/venv.html). 
+
+I thought it would be nice to separate prose and source code and embed a program by simply referencing it with a minimalist syntax the same way an image is embedded in Markdown.
+
+This is how an image is embedded in Exonote:
+
+```
+@[title](path/to/img.png)
+```
+
+This is how a program is embedded in Exonote:
+```
+${path.to.module:functionOrClass arg1 arg2 "foo bar"}
+```
+
+[2] By properly written source code, I mean a regular Python package with tree structure, modularity, Python ".py" file extension, et cetera. Thus, with a minimalist syntax, one can embed not only a program whose source code is written in a directory inside an exonotes dossier, but also a program whose distributable package is installed in the current Python virtual environment. 
 
 # Why use this project ?
 Despite the existence of interesting note-taking solutions and the storm of AI-powered projects, there are compelling arguments for adopting Exonote and Exn. Let's explore some characteristics and concrete examples.
