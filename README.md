@@ -18,7 +18,7 @@ This project is part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io
 ## Table of contents
 
 - [Overview](#overview)
-- [Why not org-mode ?](#why-not-org-mode)
+- [Why not org-mode ?](#why-not-org-mode-)
 - [Why use this project ?](#why-use-this-project-)
 - [Demo](#demo)
 - [Markup language](#markup-language)
