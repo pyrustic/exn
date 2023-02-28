@@ -1,6 +1,6 @@
 <!-- Cover -->
 <div align="center">
-    <img src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/exn/cover.png" alt="Demo" width="683">
+    <img src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/exn/cover.png" alt="Demo" width="500">
     <p align="center">
     <a href="https://github.com/pyrustic/exn-demo/blob/master/home.exn">Home.exn</a> from the <a href="https://github.com/pyrustic/exn-demo">demo</a> dossier
     </p>
