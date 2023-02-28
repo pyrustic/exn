@@ -74,8 +74,6 @@ This is how a program is embedded in Exonote:
 ${path.to.module:functionOrClass arg1 arg2 "foo bar"}
 ```
 
-[2] By properly written source code, I mean a regular Python package with tree structure, modularity, Python ".py" file extension, et cetera. Thus, with a minimalist syntax, one can embed not only a program whose source code is written in a directory inside an exonotes dossier, but also a program whose distributable package is installed in the current Python virtual environment. 
-
 # Why use this project ?
 Despite the existence of interesting note-taking solutions and the storm of AI-powered projects, there are compelling arguments for adopting Exonote and Exn. Let's explore some characteristics and concrete examples.
 
