@@ -50,7 +50,7 @@ Exn has a search interface that allows the user to search for exonotes in the do
 <div align="center">
     <img src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/exn/search.png" alt="Search" width="300">
     <p align="center">
-    <b>Search</> interface
+    <b>Search</b> interface
     </p>
 </div>
 
