@@ -154,6 +154,7 @@ class Manager:
     def _load_index(self):
         path = os.path.join(self._dossier, "index")
         self._index = utils.IndexParser.parse(path)
+        self._index = self._index if self._index else list()
 
     def _update_theme_const(self):
         theme_const.FONT_FAMILY = get_standard_font_family(name="TkTextFont")
