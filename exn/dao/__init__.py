@@ -62,15 +62,15 @@ class Dao:
 
     def _load_data(self):
         if os.path.exists(self._history_filename):
-            cache = jesth.read(self._history_filename, compact=True)
+            cache = jesth.read(self._history_filename, compact_mode=True)
             if cache:
                 self._history_cache = cache.get("", list())
         if os.path.exists(self._bookmarks_filename):
-            cache = jesth.read(self._bookmarks_filename, compact=True)
+            cache = jesth.read(self._bookmarks_filename, compact_mode=True)
             if cache:
                 self._bookmarks_cache = cache.get("", list())
         if os.path.exists(self._blocklist_filename):
-            cache = jesth.read(self._blocklist_filename, compact=True)
+            cache = jesth.read(self._blocklist_filename, compact_mode=True)
             if cache:
                 self._blocklist = cache.get("", list())
 
