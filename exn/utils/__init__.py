@@ -13,10 +13,9 @@ def load_extensions(context):
     extensions_filename = os.path.join(dossier, ".exn", "extensions")
     if not os.path.isfile(extensions_filename):
         return None
-    data = jesth.read(extensions_filename)
-    if not data:
-        return None
-    body = data.get("")
+    doc = jesth.read(extensions_filename)
+    section = doc.get("")
+    body = section.body if section else list()
     if not body:
         return None
     for line in body:
@@ -117,17 +116,16 @@ class IndexBuilder:
 
 
 def read_style_file(path):
-    cache = jesth.read(path)
-    if not cache:
-        return
-    body = cache.get("")
+    doc = jesth.read(path)
+    section = doc.get("")
+    body = section.body if section else list()
     style_data = dict()
     if not body:
         return
     for line in body:
         if not line or line.startswith("#"):
             continue
-        k, v = jesth.get_key_value(line)
+        k, v = jesth.split_key_value(line)
         if not k:
             continue
         style_data[k] = v

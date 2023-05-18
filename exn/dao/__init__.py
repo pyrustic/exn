@@ -62,17 +62,17 @@ class Dao:
 
     def _load_data(self):
         if os.path.exists(self._history_filename):
-            cache = jesth.read(self._history_filename, compact_mode=True)
-            if cache:
-                self._history_cache = cache.get("", list())
+            doc = jesth.read(self._history_filename)
+            cache = doc.get("")
+            self._history_cache = cache.body if cache else list()
         if os.path.exists(self._bookmarks_filename):
-            cache = jesth.read(self._bookmarks_filename, compact_mode=True)
-            if cache:
-                self._bookmarks_cache = cache.get("", list())
+            doc = jesth.read(self._bookmarks_filename)
+            cache = doc.get("")
+            self._bookmarks_cache = cache.body if cache else list()
         if os.path.exists(self._blocklist_filename):
-            cache = jesth.read(self._blocklist_filename, compact_mode=True)
-            if cache:
-                self._blocklist = cache.get("", list())
+            doc = jesth.read(self._blocklist_filename)
+            cache = doc.get("")
+            self._blocklist = cache.body if cache else list()
 
     def _save_state(self):
         self._create_dotexn_folder()
@@ -82,9 +82,9 @@ class Dao:
             dirname = os.path.dirname(filename)
             if not os.path.isdir(dirname):
                 continue
-            data = dict()
-            data[""] = get_data()
-            jesth.write(data, filename)
+            doc = jesth.Document()
+            doc.append("", body=get_data())
+            jesth.write(doc, filename)
             
     def _create_dotexn_folder(self):
         dotexn_folder = os.path.join(self._dossier, ".exn")
