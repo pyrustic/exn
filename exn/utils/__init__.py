@@ -117,6 +117,8 @@ class IndexBuilder:
 
 def read_style_file(path):
     doc = jesth.read(path)
+    if not doc:
+        return
     section = doc.get("")
     body = section.body if section else list()
     style_data = dict()

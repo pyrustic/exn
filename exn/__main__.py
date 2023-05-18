@@ -78,6 +78,7 @@ def open_exonote(target=None, restriction=constant.ZERO):
     manager.start(target)
 
 
+
 def build_index():
     dossier = os.getcwd()
     utils.IndexBuilder.build(dossier)
